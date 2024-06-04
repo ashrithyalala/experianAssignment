@@ -1,0 +1,27 @@
+{
+  "name": "ashrith-experian",
+  "version": "1.0.0",
+  "description": "Assignment for experian",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed --config=playwright.config.ts"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.32.3",
+    "@reportportal/agent-js-playwright": "^5.1.2",
+    "@typescript-eslint/eslint-plugin": "5.21.0",
+    "@typescript-eslint/parser": "5.21.0",
+    "allure-commandline": "^2.24.1",
+    "allure-playwright": "^2.9.2",
+    "playwright": "^1.32.3",
+    "ts-jest": "29.0.1",
+    "ts-node": "10.8.1",
+    "typescript": "4.8.4"
+},
+  "keywords": [
+    "experian",
+    "ashrith"
+  ],
+  "author": "Ashrith",
+  "license": "ISC"
+}
